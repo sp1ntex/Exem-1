@@ -1,0 +1,1073 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.header {
+  width: 1450px;
+  height: 56px;
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+
+.header ul {
+  margin-top: 15px;
+  list-style: none;
+  display: flex;
+  margin-left: 400px;
+  font-weight: 300;
+}
+
+.header li {
+  margin-left: 30px;
+}
+
+.header a {
+  text-decoration: none;
+
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.header img {
+  margin-left: 100px;
+  margin-top: 13px;
+}
+
+.header a:hover {
+  color: #00bafc;
+  text-transform: 1s;
+}
+
+.headerbutton {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 159px;
+  height: 40px;
+  right: 100px;
+  top: 8px;
+
+  /* blue */
+
+  background: #00bafc;
+  border-radius: 5px;
+}
+
+.headerbutton p {
+  font-family: sans-serif;
+  /* margin-left: 14px; */
+  /* margin-top: 7px; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.headerbutton:hover {
+  background-color: #ffffff;
+  border: 3px solid #00bafc;
+  transition: 1s ease;
+  -webkit-transition: 1s ease;
+  -moz-transition: 1s ease;
+  -ms-transition: 1s ease;
+  -o-transition: 1s ease;
+}
+
+.headerbutton p:hover {
+  color: #00bafc;
+  font-family: sans-serif;
+  /* margin-left: 14px; */
+  /* margin-top: 7px; */
+  font-style: normal;
+  font-weight: 700;
+  transition: 2s ease;
+  font-size: 15px;
+  /* line-height: 24px; */
+  /* identical to box height, or 160% */
+
+  /* Inside auto layout */
+  /* 
+    flex: none;
+    order: 0;
+    flex-grow: 0; */
+}
+
+.box h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  text-align: center;
+  /* identical to box height, or 52px */
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.box p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 15px;
+  /* or 150% */
+
+  text-align: center;
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.box {
+  margin-top: 100px;
+}
+
+.main {
+  margin-top: 60px;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0px;
+
+  position: absolute;
+  width: 1450px;
+  height: 2274px;
+  left: 0px;
+  top: 340px;
+
+  background: #f4f4f4;
+}
+
+.box1 {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 32px;
+  gap: 40px;
+  margin: auto;
+  display: flex;
+
+  width: 804px;
+  height: 378px;
+
+  background: #ffffff;
+  box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.title1 h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  /* identical to box height, or 26px */
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.title1 p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 15px;
+
+  /* or 150% */
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.tab1 ul {
+  list-style: none;
+  margin-top: 100px;
+  margin-left: -466px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.tab1 li {
+  margin-top: 13px;
+}
+.box1button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 10px;
+  margin-top: 283px;
+  margin-left: -506px;
+
+  width: 167px;
+  height: 40px;
+
+  /* blue */
+
+  background: #00bafc;
+  border-radius: 5px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.box1button p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 5px;
+  /* identical to box height, or 150% */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.box1 a {
+    color: #00bafc;
+    margin-top: 294px;
+}
+
+.box2 {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 32px;
+  gap: 40px;
+  margin: auto;
+  display: flex;
+  margin-top: 50px;
+
+  width: 804px;
+  height: 378px;
+
+  background: #ffffff;
+  box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.title2 h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  /* identical to box height, or 26px */
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.title2 p {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 15px;
+
+  /* or 150% */
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.tab2 ul {
+  list-style: none;
+  margin-top: 100px;
+  margin-left: -466px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.tab2 li {
+  margin-top: 13px;
+}
+
+
+.box2button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 16px;
+  gap: 10px;
+  margin-top: 283px;
+  margin-left: -506px;
+
+  width: 167px;
+  height: 40px;
+
+  /* blue */
+
+  background: #00bafc;
+  border-radius: 5px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.box2button p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 5px;
+  /* identical to box height, or 150% */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.box2 a {
+    color: #00bafc;
+    margin-top: 294px;
+}
+/* box2 end */
+
+.box3 {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 32px;
+    gap: 40px;
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+  
+    width: 804px;
+    height: 378px;
+  
+    background: #ffffff;
+    box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .title3 h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    /* identical to box height, or 26px */
+  
+    color: #000000;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .title3 p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 15px;
+  
+    /* or 150% */
+  
+    color: #000000;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .tab3 ul {
+    list-style: none;
+    margin-top: 100px;
+    margin-left: -466px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+  
+    color: #000000;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .tab3 li {
+    margin-top: 13px;
+  }
+  
+  
+  .box3button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 10px;
+    margin-top: 283px;
+    margin-left: -506px;
+  
+    width: 167px;
+    height: 40px;
+  
+    /* blue */
+  
+    background: #00bafc;
+    border-radius: 5px;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .box3button p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 5px;
+    /* identical to box height, or 150% */
+  
+    color: #ffffff;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .box3 a {
+      color: #00bafc;
+      margin-top: 294px;
+  }
+
+  /* box 3 end                                                box 33333 */
+  .box4 {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 32px;
+    gap: 40px;
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+  
+    width: 804px;
+    height: 378px;
+  
+    background: #ffffff;
+    box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .title4 h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    /* identical to box height, or 26px */
+  
+    color: #000000;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .title4 p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 15px;
+  
+    /* or 150% */
+  
+    color: #000000;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .tab4 ul {
+    list-style: none;
+    margin-top: 100px;
+    margin-left: -466px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+  
+    color: #000000;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .tab4 li {
+    margin-top: 13px;
+  }
+  
+  
+  .box4button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 10px;
+    margin-top: 283px;
+    margin-left: -506px;
+  
+    width: 167px;
+    height: 40px;
+  
+    /* blue */
+  
+    background: #00bafc;
+    border-radius: 5px;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .box4button p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 5px;
+    /* identical to box height, or 150% */
+  
+    color: #ffffff;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .box4 a {
+      color: #00bafc;
+      margin-top: 294px;
+  }
+
+  /*                                                box 4 end */
+
+  .box5 {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 32px;
+    gap: 40px;
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+  
+    width: 804px;
+    height: 378px;
+  
+    background: #ffffff;
+    box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .title5 h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    /* identical to box height, or 26px */
+  
+    color: #000000;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .title5 p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 15px;
+  
+    /* or 150% */
+  
+    color: #000000;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .tab5 ul {
+    list-style: none;
+    margin-top: 100px;
+    margin-left: -466px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+  
+    color: #000000;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .tab5 li {
+    margin-top: 13px;
+  }
+  
+  
+  .box5button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 10px;
+    margin-top: 283px;
+    margin-left: -506px;
+  
+    width: 167px;
+    height: 40px;
+  
+    /* blue */
+  
+    background: #00bafc;
+    border-radius: 5px;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .box5button p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 5px;
+    /* identical to box height, or 150% */
+  
+    color: #ffffff;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .box5 a {
+      color: #00bafc;
+      margin-top: 294px;
+  }
+
+  .inputmega {
+    flex-direction: column;
+    align-items: center;
+    padding: 56px 100px;
+    gap: 16px;
+    margin-top: 400px;
+  
+    position: absolute;
+    width: 1450px;
+    height: 610px;
+    left: 0px;
+    margin-top: 2373px;
+    /* top: 3028px; */
+  
+    background: #00bafc;
+  }
+  
+  .inputmega h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    margin-top: 10px;
+    /* or 31px */
+  
+    text-align: center;
+  
+    color: #ffffff;
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .inputmega p {
+    font-style: normal;
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+  
+    text-align: center;
+  
+    color: #ffffff;
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .inputdiv {
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    gap: 16px;
+  
+    margin-top: 40px;
+    margin-left: 450px;
+  
+    width: 348px;
+    height: 324px;
+  
+    background: #ffffff;
+    border-radius: 5px;
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .input1 input {
+    width: 300px;
+    height: 60px;
+    border: none;
+    background: #f3f3f3;
+    border-radius: 5px;
+  }
+  
+  .input1 ::placeholder {
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    padding-left: 20px;
+  }
+  
+  .input2 input {
+    width: 300px;
+    height: 60px;
+    border: none;
+    background: #f3f3f3;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .input2 ::placeholder {
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    padding-left: 20px;
+  }
+  
+  .input3 input {
+    width: 300px;
+    height: 60px;
+    border: none;
+    background: #f3f3f3;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .input3 ::placeholder {
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    padding-left: 20px;
+  }
+  
+  .submit1 input {
+    width: 170px;
+    height: 40px;
+    background: #00bafc;
+    border: none;
+    flex-direction: row;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-left: 60px;
+    margin-top: 20px;
+  }
+
+  .footer {
+    width: 1450px;
+    height: 450px;
+    display: flex;
+    margin-top:2980px;
+    background: #191919;
+  }
+  
+  .block1 h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+    margin-left: 100px;
+    padding-top: 70px;
+  
+    color: #ffffff;
+  }
+  
+  .block1 p {
+    margin-left: 100px;
+    padding-top: 20px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 24px */
+  
+    color: #ffffff;
+  }
+  
+  .block2 h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+    margin-left: 140px;
+    margin-top: 68px;
+    /* identical to box height, or 26px */
+  
+    color: #ffffff;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  ul {
+    list-style: none;
+    margin-left: 140px;
+    margin-top: 20px;
+  }
+  .block2 a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+  
+    /* identical to box height, or 150% */
+  
+    color: #ffffff;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .minblock3 h2 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 130%;
+      margin-left: 120px;
+      margin-top: 66px;
+      /* identical to box height, or 26px */
+      
+      
+      color: #FFFFFF;
+      
+      
+      /* Inside auto layout */
+      
+      flex: none;
+      order: 0;
+      flex-grow: 0;
+  }
+  
+  .minblock3 ul {
+      margin-left: 121px;
+  }
+  
+  .minblock3 ul li {
+      margin-top: 10px;
+  }
+  
+  .block3 {
+      display: flex;
+  }
+  
+  .min2block3 a{
+      text-decoration: none;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 24px;
+      /* identical to box height, or 150% */
+      
+      
+      color: #FFFFFF;
+  }
+  
+  .min2block3 ul {
+      margin-top: 124px;
+      margin-left: -114px;
+      
+  }
+  
+  .min2block3 li {
+      margin-top: 21px;
+  }
+  
+ 
